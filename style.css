@@ -158,6 +158,12 @@ header>button{
         height: fit-content;
     }
 
+    .song>p{
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+    }
+
     #player{
         font-size: 18px;
         font-weight: 500;
