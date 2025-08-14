@@ -80,6 +80,8 @@ header>button{
 }
 
 .song{
+    height: 220px;
+    width: 200px;
     position: relative;
     padding: 10px;
     border-radius: 8px;
@@ -114,8 +116,30 @@ header>button{
     border: 1px solid green;
 }
 
+#player>button{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    border: 1px solid green;
+}
+
 .song:hover>button{
     display: flex;
+}
+
+
+#player{
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    background-color: rgba(36, 37, 36, 0.758);
 }
 
 
@@ -133,4 +157,24 @@ header>button{
         width: 90%;
         height: fit-content;
     }
+
+    #player{
+        font-size: 18px;
+        font-weight: 500;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .song>button{
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    left:120px;
+    top:120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    border: 1px solid green;
+}
 }
